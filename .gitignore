@@ -1,47 +1,48 @@
-# Python virtual environments
+# Python caches
+__pycache__/
+*.py[cod]
+$py.class
+
+# Virtual environments
 .venv/
 venv/
 env/
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+ENV/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# macOS
-.DS_Store
-
 # VS Code settings
 .vscode/
 
-# PyCharm
-.idea/
+# macOS
+.DS_Store
 
-# Logs
-logs/
-*.log
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 
-# Model weights and large saved models
+# Data and large files
+data/
+*.csv
+*.zip
+
+# Models and checkpoints
 models_lab3/
 *.h5
 *.keras
 *.ckpt
 *.pb
-*.tflite
-
-# Dataset folders (uncomment if you want to keep datasets out of git)
-# data/
-# data/**/*
-
-# TensorFlow saved model directories
 saved_model/
 
-# Temporary files
-*.tmp
-*.swp
+# Logs
+logs/
+*.log
 
-# OS generated files
-Thumbs.db
+# Pytest cache
+.pytest_cache/
+
+# Misc
+coverage/
+htmlcov/
