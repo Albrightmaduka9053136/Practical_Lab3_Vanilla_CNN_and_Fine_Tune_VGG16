@@ -1,11 +1,5 @@
-# Ignore dataset
-data/
-
-# Ignore trained model files
 models_lab3/
-models_lab3/*.keras
-models_lab3/*.h5
-
-# Python cache
+data/
+*.h5
+*.keras
 __pycache__/
-*.pyc
