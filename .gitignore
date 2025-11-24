@@ -1,0 +1,11 @@
+# Ignore dataset
+data/
+
+# Ignore trained model files
+models_lab3/
+models_lab3/*.keras
+models_lab3/*.h5
+
+# Python cache
+__pycache__/
+*.pyc
