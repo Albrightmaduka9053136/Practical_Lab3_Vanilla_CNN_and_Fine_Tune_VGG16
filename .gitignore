@@ -46,3 +46,15 @@ logs/
 # Misc
 coverage/
 htmlcov/
+
+# Auto-added to ignore large files
+models_lab3/vgg16_finetuned_best.weights.h5
+
+# Auto-added to ignore large files
+models_lab3/vgg16_feature_extract_best.weights.h5
+
+# Auto-added to ignore large files
+models_lab3/vgg16_feature_extraction_best.weights.h5
+
+# Auto-added to ignore large files
+models_lab3/vanilla_cnn_best.keras
